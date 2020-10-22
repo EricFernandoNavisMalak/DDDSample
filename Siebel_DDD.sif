@@ -1,0 +1,2090 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<REPOSITORY
+   COMMENTS="6.2.2"
+   NAME="Siebel Repository"
+   UPDATED="04/03/2018 13:56:26"
+   UPDATED_BY="SADMIN"
+   CREATED="04/03/2018 11:41:01"
+   CREATED_BY="SADMIN"
+   FIO_PLACEHOLDER_FIO="TRUE">
+	<PROJECT
+	   ALLOW_OBJECT_LOCKING="Y"
+	   INACTIVE="N"
+	   LANGUAGE_LOCKED="ENU"
+	   LOCKED="Y"
+	   LOCKED_DATE="10/21/2020 17:25:16"
+	   NAME="DDD"
+	   UI_FREEZE="N"
+	   LOCKED_BY_NAME="MALAKE957"
+	   UPDATED="10/22/2020 12:28:28"
+	   UPDATED_BY="MALAKE957"
+	   CREATED="10/21/2020 17:25:12"
+	   CREATED_BY="MALAKE957">
+		<BUSINESS_COMPONENT
+		   CACHE_DATA="N"
+		   CLASS="CSSBusComp"
+		   DIRTY_READS="Y"
+		   DISTINCT="N"
+		   FORCE_ACTIVE="N"
+		   GENREASSIGNACT="N"
+		   INACTIVE="N"
+		   INSERT_UPDATE_ALL_COLUMNS="N"
+		   LOG_CHANGES="Y"
+		   MULTI_RECIPIENT_SELECT="N"
+		   NAME="WP Project"
+		   NO_DELETE="N"
+		   NO_INSERT="N"
+		   NO_MERGE="N"
+		   NO_UPDATE="N"
+		   OBJECT_LANGUAGE_LOCKED="ENU"
+		   OBJECT_LOCKED="Y"
+		   OBJECT_LOCKED_DATE="10/21/2020 17:41:31"
+		   OWNER_DELETE="N"
+		   POPUP_VISIBILITY_AUTO_ALL="N"
+		   SCRIPTED="N"
+		   TABLE="CX_WP_PROJECT"
+		   TYPE="Non-Transient"
+		   OBJECT_LOCKED_BY_NAME="MALAKE957"
+		   UPDATED="10/21/2020 19:07:07"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/21/2020 17:41:31"
+		   CREATED_BY="MALAKE957">
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="CLIENT_ID"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Client Id"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="50"
+			   TYPE="DTYPE_TEXT"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 17:41:43"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:41:43"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="NAME"
+			   COMPOSITE="N"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   JOIN="Client"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Client Name"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="100"
+			   TYPE="DTYPE_TEXT"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 18:03:56"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:03:56"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="END_DT"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="End Date"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TYPE="DTYPE_DATETIME"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 17:41:43"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:41:43"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="NAME"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Name"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="100"
+			   TYPE="DTYPE_TEXT"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 17:41:43"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:41:43"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="PROJ_MGR_ID"
+			   COMPOSITE="N"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Project Manager Id"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="15"
+			   TYPE="DTYPE_ID"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 17:54:25"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:54:25"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="LOGIN"
+			   COMPOSITE="N"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   JOIN="Project Manager"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Project Manager Login"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="50"
+			   TYPE="DTYPE_TEXT"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 17:55:50"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:55:50"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="REFERENCE"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Reference"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="100"
+			   TYPE="DTYPE_TEXT"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 17:41:43"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:41:43"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="START_DT"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Start Date"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TYPE="DTYPE_DATETIME"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 17:41:43"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:41:43"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="STATUS"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Status"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="30"
+			   TYPE="DTYPE_TEXT"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 17:41:31"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:41:31"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<JOIN
+			   INACTIVE="N"
+			   NAME="Client"
+			   OUTER_JOIN_FLAG="N"
+			   TABLE="S_ORG_EXT"
+			   UPDATED="10/21/2020 18:03:47"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:03:13"
+			   CREATED_BY="MALAKE957">
+				<JOIN_SPECIFICATION
+				   DESTINATION_COLUMN="OU_NUM"
+				   INACTIVE="N"
+				   NAME="Join"
+				   SOURCE_FIELD="Client Id"
+				   UPDATED="10/21/2020 18:03:27"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:03:27"
+				   CREATED_BY="MALAKE957">
+				</JOIN_SPECIFICATION>
+			</JOIN>
+			<JOIN
+			   INACTIVE="N"
+			   NAME="Project Manager"
+			   OUTER_JOIN_FLAG="N"
+			   TABLE="S_USER"
+			   UPDATED="10/21/2020 17:55:47"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:54:49"
+			   CREATED_BY="MALAKE957">
+				<JOIN_SPECIFICATION
+				   DESTINATION_COLUMN="ROW_ID"
+				   INACTIVE="N"
+				   NAME="Join Field"
+				   SOURCE_FIELD="Project Manager Id"
+				   UPDATED="10/21/2020 17:55:15"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 17:55:15"
+				   CREATED_BY="MALAKE957">
+				</JOIN_SPECIFICATION>
+			</JOIN>
+			<MULTI_VALUE_LINK
+			   AUTO_PRIMARY="Default"
+			   CHECK_NO_MATCH="N"
+			   DESTINATION_BUSINESS_COMPONENT="Employee"
+			   DESTINATION_LINK="WP Project/Employee"
+			   INACTIVE="N"
+			   NAME="Specialist"
+			   NO_ASSOCIATE="N"
+			   NO_COPY="N"
+			   NO_DELETE="N"
+			   NO_INSERT="N"
+			   NO_UPDATE="N"
+			   POPUP_UPDATE_ONLY="N"
+			   USE_PRIMARY_JOIN="Y"
+			   UPDATED="10/21/2020 18:52:17"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:52:17"
+			   CREATED_BY="MALAKE957">
+			</MULTI_VALUE_LINK>
+		</BUSINESS_COMPONENT>
+		<BUSINESS_COMPONENT
+		   CACHE_DATA="N"
+		   CLASS="CSSBusComp"
+		   DIRTY_READS="Y"
+		   DISTINCT="N"
+		   FORCE_ACTIVE="N"
+		   GENREASSIGNACT="N"
+		   INACTIVE="N"
+		   INSERT_UPDATE_ALL_COLUMNS="N"
+		   LOG_CHANGES="Y"
+		   MULTI_RECIPIENT_SELECT="N"
+		   NAME="WP Specialist"
+		   NO_DELETE="N"
+		   NO_INSERT="N"
+		   NO_MERGE="N"
+		   NO_UPDATE="N"
+		   OBJECT_LANGUAGE_LOCKED="ENU"
+		   OBJECT_LOCKED="Y"
+		   OBJECT_LOCKED_DATE="10/21/2020 19:21:32"
+		   OWNER_DELETE="N"
+		   POPUP_VISIBILITY_AUTO_ALL="N"
+		   SCRIPTED="N"
+		   TABLE="CX_PROJ_EMP"
+		   TYPE="Non-Transient"
+		   OBJECT_LOCKED_BY_NAME="MALAKE957"
+		   UPDATED="10/22/2020 09:26:53"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/21/2020 19:21:32"
+		   CREATED_BY="MALAKE957">
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="PROJECT_ID"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Project Id"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="15"
+			   TYPE="DTYPE_ID"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 19:21:32"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 19:21:32"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="STATUS"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Status"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="30"
+			   TYPE="DTYPE_TEXT"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 19:21:32"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 19:21:32"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="TYPE"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="Type"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="30"
+			   TYPE="DTYPE_TEXT"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 19:21:32"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 19:21:32"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+			<FIELD
+			   CALCULATED="N"
+			   COLUMN="USER_ID"
+			   DISABLE_SEARCH="N"
+			   DISABLE_SORT="N"
+			   FORCE_ACTIVE="N"
+			   HIDDEN="N"
+			   IMMEDIATE_POST_CHANGES="N"
+			   INACTIVE="N"
+			   LINK_SPECIFICATION="N"
+			   MESSAGE_DISPLAY_MODE="User Msg with Error Code Only"
+			   MULTI_VALUED="N"
+			   NAME="User Id"
+			   NO_COPY="N"
+			   READ_ONLY="N"
+			   REQUIRED="N"
+			   TEXT_LENGTH="15"
+			   TYPE="DTYPE_ID"
+			   USE_DEFAULT_SENSITIVITY="Y"
+			   UPDATED="10/21/2020 19:21:32"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 19:21:32"
+			   CREATED_BY="MALAKE957">
+			</FIELD>
+		</BUSINESS_COMPONENT>
+		<BUSINESS_OBJECT
+		   INACTIVE="N"
+		   NAME="WP Project"
+		   OBJECT_LANGUAGE_LOCKED="ENU"
+		   OBJECT_LOCKED="Y"
+		   OBJECT_LOCKED_DATE="10/21/2020 19:07:34"
+		   PRIMARY_BUSINESS_COMPONENT="WP Project"
+		   QUERY_LIST_BUSINESS_COMPONENT="Query List"
+		   OBJECT_LOCKED_BY_NAME="MALAKE957"
+		   UPDATED="10/22/2020 09:27:54"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/21/2020 19:07:27"
+		   CREATED_BY="MALAKE957">
+			<BUSINESS_OBJECT_COMPONENT
+			   BUSCOMP="Employee"
+			   INACTIVE="N"
+			   LINK="WP Project/Employee"
+			   NAME="Employee"
+			   UPDATED="10/21/2020 19:07:47"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 19:07:47"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_OBJECT_COMPONENT>
+			<BUSINESS_OBJECT_COMPONENT
+			   BUSCOMP="WP Project"
+			   INACTIVE="N"
+			   NAME="WP Project"
+			   UPDATED="10/21/2020 19:07:36"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 19:07:36"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_OBJECT_COMPONENT>
+			<BUSINESS_OBJECT_COMPONENT
+			   BUSCOMP="WP Specialist"
+			   INACTIVE="N"
+			   LINK="WP Project/WP Specialist"
+			   NAME="WP Specialist"
+			   UPDATED="10/22/2020 09:27:54"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 19:31:59"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_OBJECT_COMPONENT>
+		</BUSINESS_OBJECT>
+		<BUSINESS_SERVICE
+		   CACHE="N"
+		   CLASS="CSSService"
+		   EXTERNAL_USE="N"
+		   HIDDEN="N"
+		   INACTIVE="N"
+		   NAME="Project"
+		   OBJECT_LANGUAGE_LOCKED="ENU"
+		   OBJECT_LOCKED="Y"
+		   OBJECT_LOCKED_DATE="10/22/2020 09:36:17"
+		   SERVER_ENABLED="N"
+		   STATE_MANAGEMENT_TYPE="Stateful"
+		   WEB_SERVICE_ENABLED="N"
+		   OBJECT_LOCKED_BY_NAME="MALAKE957"
+		   UPDATED="10/22/2020 12:28:13"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/22/2020 09:35:53"
+		   CREATED_BY="MALAKE957">
+			<BUSINESS_SERVICE_METHOD
+			   HIDDEN="N"
+			   INACTIVE="N"
+			   NAME="AddSpecialist"
+			   UPDATED="10/22/2020 09:51:15"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 09:48:49"
+			   CREATED_BY="MALAKE957">
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Reference"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input"
+				   UPDATED="10/22/2020 09:50:58"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:50:58"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="SpecialistId"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input"
+				   UPDATED="10/22/2020 09:50:13"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:50:13"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Status"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Output"
+				   UPDATED="10/22/2020 09:51:06"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:51:06"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_LOCALE
+				   APPLICATION_CODE="STD"
+				   DISPLAY_NAME="AddSpecialist"
+				   INACTIVE="N"
+				   LANGUAGE_CODE="ENU"
+				   NAME="ENU-STD"
+				   TRANSLATE="Y"
+				   UPDATED="10/22/2020 09:50:12"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:50:12"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_LOCALE>
+			</BUSINESS_SERVICE_METHOD>
+			<BUSINESS_SERVICE_METHOD
+			   HIDDEN="N"
+			   INACTIVE="N"
+			   NAME="ApproveSpecialist"
+			   UPDATED="10/22/2020 09:53:14"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 09:52:23"
+			   CREATED_BY="MALAKE957">
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Reference"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input"
+				   UPDATED="10/22/2020 09:52:52"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:52:52"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="SpecialistId"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input"
+				   UPDATED="10/22/2020 09:52:37"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:52:37"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Status"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Output"
+				   UPDATED="10/22/2020 09:53:02"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:53:02"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_LOCALE
+				   APPLICATION_CODE="STD"
+				   DISPLAY_NAME="ApproveSpecialist"
+				   INACTIVE="N"
+				   LANGUAGE_CODE="ENU"
+				   NAME="ENU-STD"
+				   TRANSLATE="Y"
+				   UPDATED="10/22/2020 09:52:35"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:52:35"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_LOCALE>
+			</BUSINESS_SERVICE_METHOD>
+			<BUSINESS_SERVICE_METHOD
+			   HIDDEN="N"
+			   INACTIVE="N"
+			   NAME="Draft"
+			   UPDATED="10/22/2020 09:47:22"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 09:37:52"
+			   CREATED_BY="MALAKE957">
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="ClientId"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input / Output"
+				   UPDATED="10/22/2020 09:41:50"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:39:07"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="Date"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="EndDate"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input / Output"
+				   UPDATED="10/22/2020 09:45:01"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:38:48"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Name"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input / Output"
+				   UPDATED="10/22/2020 09:42:57"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:38:41"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Reference"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Output"
+				   UPDATED="10/22/2020 09:47:12"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:47:12"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Status"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Output"
+				   UPDATED="10/22/2020 09:39:19"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:39:19"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_LOCALE
+				   APPLICATION_CODE="STD"
+				   DISPLAY_NAME="Draft"
+				   INACTIVE="N"
+				   LANGUAGE_CODE="ENU"
+				   NAME="ENU-STD"
+				   TRANSLATE="Y"
+				   UPDATED="10/22/2020 09:38:10"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:38:10"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_LOCALE>
+			</BUSINESS_SERVICE_METHOD>
+			<BUSINESS_SERVICE_METHOD
+			   HIDDEN="N"
+			   INACTIVE="N"
+			   NAME="Start"
+			   UPDATED="10/22/2020 09:48:47"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 09:42:59"
+			   CREATED_BY="MALAKE957">
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="ProjectManagerId"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input"
+				   UPDATED="10/22/2020 09:44:16"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:44:16"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Reference"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Input"
+				   UPDATED="10/22/2020 09:47:28"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:47:28"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_ARG
+				   DATA_TYPE="String"
+				   HIDDEN="N"
+				   INACTIVE="N"
+				   NAME="Status"
+				   OPTIONAL="N"
+				   STORAGE_TYPE="Property"
+				   TYPE="Output"
+				   UPDATED="10/22/2020 09:47:37"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:47:37"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_ARG>
+				<BUSINESS_SERVICE_METHOD_LOCALE
+				   APPLICATION_CODE="STD"
+				   DISPLAY_NAME="Start"
+				   INACTIVE="N"
+				   LANGUAGE_CODE="ENU"
+				   NAME="ENU-STD"
+				   TRANSLATE="Y"
+				   UPDATED="10/22/2020 09:44:55"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/22/2020 09:44:55"
+				   CREATED_BY="MALAKE957">
+				</BUSINESS_SERVICE_METHOD_LOCALE>
+			</BUSINESS_SERVICE_METHOD>
+			<BUSINESS_SERVICE_SERVER_SCRIPT
+			   INACTIVE="N"
+			   NAME="(declarations)"
+			   PROGRAM_LANGUAGE="JS"
+			   SCRIPT="//Your public declarations go here..."
+			   SEQUENCE="1"
+			   UPDATED="10/22/2020 10:46:17"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 10:46:17"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_SERVICE_SERVER_SCRIPT>
+			<BUSINESS_SERVICE_SERVER_SCRIPT
+			   INACTIVE="N"
+			   NAME="AddSpecialist"
+			   PROGRAM_LANGUAGE="JS"
+			   SCRIPT="//Your public declarations go here... 
+function AddSpecialist(Inputs, Outputs)
+{
+	try
+	{
+		var oProjectBO:BusObject = TheApplication().GetBusObject(&quot;WP Project&quot;);
+		var oProjectBC:BusComp = oProjectBO.GetBusComp(&quot;WP Project&quot;);
+		var oSpecialistBC:BusComp = oProjectBO.GetBusComp(&quot;WP Specialist&quot;);
+		var strId:String = &quot;&quot;;
+		with(oProjectBC)
+		{
+			SetViewMode(AllView);
+			ClearToQuery();
+			SetSearchSpec(&quot;Reference&quot;,Inputs.GetProperty(&quot;Reference&quot;)); 
+			SetSearchSpec(&quot;Status&quot;,&quot;Active&quot;);
+			ExecuteQuery(ForwardOnly);
+			strId = GetFieldValue(&quot;Id&quot;);
+			if (FirstRecord()==false)
+			{
+				TheApplication().RaiseErrorText(&quot;Active project not found&quot;);
+			}
+		}
+		with (oSpecialistBC)
+		{
+			SetViewMode(AllView);
+			ClearToQuery();
+			SetSearchSpec(&quot;User Id&quot;,Inputs.GetProperty(&quot;SpecialistId&quot;));
+			SetSearchSpec(&quot;Status&quot;,&quot;= &apos;Approved&apos; OR [Status] = &apos;Pending&apos;&quot;);
+			ExecuteQuery(ForwardOnly);
+			if (FirstRecord())
+			{
+				TheApplication().RaiseErrorText(&quot;Specialist already added to Project&quot;);
+			}
+			NewRecord(NewAfter);
+			SetFieldValue(&quot;User Id&quot;, Inputs.GetProperty(&quot;SpecialistId&quot;));
+			SetFieldValue(&quot;Status&quot;, &quot;Pending&quot;);
+			WriteRecord();
+			Outputs.SetProperty(&quot;Status&quot;,&quot;Specialist Added&quot;);
+		}
+	}
+	catch(e)
+	{
+		throw(e);
+	}
+	finally
+	{
+		oSpecialistBC = null;
+		oProjectBC = null;
+		oProjectBO = null; 
+	}
+}"
+			   SEQUENCE="2"
+			   UPDATED="10/22/2020 12:24:41"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 10:34:30"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_SERVICE_SERVER_SCRIPT>
+			<BUSINESS_SERVICE_SERVER_SCRIPT
+			   INACTIVE="N"
+			   NAME="ApproveSpecialist"
+			   PROGRAM_LANGUAGE="JS"
+			   SCRIPT="
+function ApproveSpecialist(Inputs, Outputs)
+{
+	try
+	{
+		var oProjectBO:BusObject = TheApplication().GetBusObject(&quot;WP Project&quot;);
+		var oProjectBC:BusComp = oProjectBO.GetBusComp(&quot;WP Project&quot;);
+		var oSpecialistBC:BusComp = oProjectBO.GetBusComp(&quot;WP Specialist&quot;);
+		var strId:String = &quot;&quot;;
+		with(oProjectBC)
+		{
+			SetViewMode(AllView);
+			ClearToQuery();
+			SetSearchSpec(&quot;Reference&quot;,Inputs.GetProperty(&quot;Reference&quot;)); 
+			SetSearchSpec(&quot;Status&quot;,&quot;Active&quot;);
+			ExecuteQuery(ForwardOnly);
+			strId = GetFieldValue(&quot;Id&quot;);
+			if (FirstRecord()==false)
+			{
+				TheApplication().RaiseErrorText(&quot;Active project not found&quot;);
+			}
+		}
+		with (oSpecialistBC)
+		{
+			SetViewMode(AllView);
+			ClearToQuery();
+			SetSearchSpec(&quot;User Id&quot;,Inputs.GetProperty(&quot;SpecialistId&quot;));
+			SetSearchSpec(&quot;Status&quot;,&quot;Pending&quot;);
+			ExecuteQuery(ForwardOnly);
+			if (FirstRecord())
+			{
+				SetFieldValue(&quot;Status&quot;, &quot;Approved&quot;);
+				WriteRecord();
+				Outputs.SetProperty(&quot;Status&quot;,&quot;Specialist Added&quot;);
+			}
+			else
+			{
+				TheApplication().RaiseErrorText(&quot;Specialist not found in Project&quot;);
+			}
+		}
+	}
+	catch(e)
+	{
+		throw(e);
+	}
+	finally
+	{
+		oSpecialistBC = null;
+		oProjectBC = null;
+		oProjectBO = null; 
+	}
+}"
+			   SEQUENCE="3"
+			   UPDATED="10/22/2020 12:28:13"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 10:34:48"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_SERVICE_SERVER_SCRIPT>
+			<BUSINESS_SERVICE_SERVER_SCRIPT
+			   INACTIVE="N"
+			   NAME="Project"
+			   PROGRAM_LANGUAGE="JS"
+			   SCRIPT="//Your public declarations go here...
+function Project(Inputs, Outputs)
+{
+	try
+	{
+		var oProjectBO:BusObject = TheApplication().GetBusObject(&quot;WP Project&quot;);
+		var oProjectBC:BusComp = oProjectBO.GetBusComp(&quot;WP Project&quot;);
+		with(oProjectBC)
+		{
+			NewRecord(NewAfter);
+			SetFieldValue(&quot;Name&quot;, Inputs.GetProperty(&quot;Name&quot;));
+			SetFieldValue(&quot;End Date&quot;, Inputs.GetProperty(&quot;EndDate&quot;));
+			SetFieldValue(&quot;Client Id&quot;, Inputs.GetProperty(&quot;ClientId&quot;));
+			WriteRecord();
+			Outputs.SetProperty(&quot;Reference&quot;,GetFieldValue(&quot;Reference&quot;));
+			Outputs.SetProperty(&quot;Status&quot;,GetFieldValue(&quot;Status&quot;));
+		}
+	}
+	catch(e)
+	{
+		throw(e);
+	}
+	finally
+	{
+		oProjectBC = null;
+		oProjectBO = null; 
+	}
+}"
+			   SEQUENCE="4"
+			   UPDATED="10/22/2020 10:57:10"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 10:33:51"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_SERVICE_SERVER_SCRIPT>
+			<BUSINESS_SERVICE_SERVER_SCRIPT
+			   INACTIVE="N"
+			   NAME="Service_PreInvokeMethod"
+			   PROGRAM_LANGUAGE="JS"
+			   SCRIPT="function Service_PreInvokeMethod (MethodName, Inputs, Outputs)
+{
+	switch (MethodName)
+	{
+
+	 case &quot;Draft&quot;:
+		Project(Inputs, Outputs );
+		return (CancelOperation);
+		break;
+	
+	case &quot;Start&quot;:
+		Start(Inputs,Outputs );
+		return (CancelOperation);
+		break;
+	
+	case &quot;AddSpecialist&quot;:
+		AddSpecialist(Inputs,Outputs );
+		return (CancelOperation);
+		break;
+
+	
+	case &quot;Start&quot;:
+		ApproveSpecialist(Inputs,Outputs );
+		return (CancelOperation);
+		break;
+
+
+	default:
+		break;
+	 
+	}
+
+	return (ContinueOperation);
+}"
+			   SEQUENCE="6"
+			   UPDATED="10/22/2020 10:46:17"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 09:36:56"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_SERVICE_SERVER_SCRIPT>
+			<BUSINESS_SERVICE_SERVER_SCRIPT
+			   INACTIVE="N"
+			   NAME="Start"
+			   PROGRAM_LANGUAGE="JS"
+			   SCRIPT="//Your public declarations go here... 
+function Start(Inputs, Outputs)
+{
+	try
+	{
+		var oProjectBO:BusObject = TheApplication().GetBusObject(&quot;WP Project&quot;);
+		var oProjectBC:BusComp = oProjectBO.GetBusComp(&quot;WP Project&quot;);
+		var strProjectId=&quot;&quot;;
+		with(oProjectBC)
+		{
+			SetViewMode(AllView);
+			ClearToQuery();
+			SetSearchSpec(&quot;Reference&quot;,Inputs.GetProperty(&quot;Reference&quot;)); 
+			SetSearchSpec(&quot;Status&quot;,&quot;Draft&quot;);
+			ExecuteQuery(ForwardOnly);
+			strProjectId = GetFieldValue(&quot;Id&quot;);
+			if (FirstRecord())
+			{
+				
+				SetFieldValue(&quot;Status&quot;,&quot;Active&quot;);
+				SetFieldValue(&quot;Project Manager Id&quot;, Inputs.GetProperty(&quot;ProjectManagerId&quot;));
+				WriteRecord();
+				Outputs.SetProperty(&quot;Status&quot;,&quot;Active&quot;);
+			}
+			else
+			{
+				TheApplication().RaiseErrorText(&quot;Draft project not found&quot;);
+			}
+		}
+	}
+	catch(e)
+	{
+		throw(e);
+	}
+	finally
+	{
+		oProjectBC = null;
+		oProjectBO = null; 
+	}
+}"
+			   SEQUENCE="5"
+			   UPDATED="10/22/2020 12:00:58"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/22/2020 10:32:35"
+			   CREATED_BY="MALAKE957">
+			</BUSINESS_SERVICE_SERVER_SCRIPT>
+		</BUSINESS_SERVICE>
+		<ENTITY_RELATIONSHIP_DIAGRAM
+		   INACTIVE="N"
+		   NAME="Project"
+		   OBJECT_LANGUAGE_LOCKED="ENU"
+		   OBJECT_LOCKED="Y"
+		   OBJECT_LOCKED_DATE="10/21/2020 18:07:22"
+		   STATUS="Scope"
+		   OBJECT_LOCKED_BY_NAME="MALAKE957"
+		   UPDATED="10/21/2020 18:09:03"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/21/2020 18:07:13"
+		   CREATED_BY="MALAKE957">
+			<ENTITY
+			   BUSINESS_COMPONENT="Account"
+			   INACTIVE="N"
+			   LAYOUT="@0*0*3*0*0*0*1*r14*444 72 522 1269*FillBgClr8*167641088*ArrowEnd1*1"
+			   NAME="Client"
+			   UPDATED="10/21/2020 18:08:47"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:08:10"
+			   CREATED_BY="MALAKE957">
+			</ENTITY>
+			<ENTITY
+			   BUSINESS_COMPONENT="WP Project"
+			   INACTIVE="N"
+			   LAYOUT="@0*0*3*0*0*0*1*r14*180 60 336 1449*FillBgClr8*167641088*ArrowEnd1*1"
+			   NAME="Project"
+			   UPDATED="10/21/2020 18:09:03"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:07:30"
+			   CREATED_BY="MALAKE957">
+			</ENTITY>
+			<ENTITY_RELATION
+			   CARDINALITY="1:1"
+			   ENTITY_1="Project"
+			   ENTITY_2="Client"
+			   INACTIVE="N"
+			   LAYOUT="@0*0*9*0*0*0*9*LineWidth1*12*P26*361 994*FrHS1*22*P17*361 1024*NPts1*42*P07*336 1022*P36*444 994*ToHS1*08*ArrowEnd1*0"
+			   NAME="Relation0"
+			   UPDATED="10/21/2020 18:09:03"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:08:15"
+			   CREATED_BY="MALAKE957">
+			</ENTITY_RELATION>
+		</ENTITY_RELATIONSHIP_DIAGRAM>
+		<LINK
+		   CASCADE_DELETE="None"
+		   CHILD_BUSINESS_COMPONENT="Employee"
+		   INACTIVE="N"
+		   INTER_CHILD_COLUMN="USER_ID"
+		   INTER_CHILD_DELETE="N"
+		   INTER_PARENT_COLUMN="PROJECT_ID"
+		   INTER_TABLE="CX_PROJ_EMP"
+		   NAME="WP Project/Employee"
+		   NO_ASSOCIATE="N"
+		   NO_DELETE="N"
+		   NO_INSERT="N"
+		   NO_INTER_DELETE="N"
+		   NO_UPDATE="N"
+		   OBJECT_LANGUAGE_LOCKED="ENU"
+		   OBJECT_LOCKED="Y"
+		   OBJECT_LOCKED_DATE="10/21/2020 18:48:41"
+		   PARENT_BUSINESS_COMPONENT="WP Project"
+		   VISIBILITY_AUTO_ALL="N"
+		   OBJECT_LOCKED_BY_NAME="MALAKE957"
+		   UPDATED="10/21/2020 18:52:10"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/21/2020 18:48:03"
+		   CREATED_BY="MALAKE957">
+		</LINK>
+		<LINK
+		   CASCADE_DELETE="None"
+		   CHILD_BUSINESS_COMPONENT="WP Specialist"
+		   DESTINATION_FIELD="Project Id"
+		   INACTIVE="N"
+		   INTER_CHILD_DELETE="N"
+		   NAME="WP Project/WP Specialist"
+		   NO_ASSOCIATE="N"
+		   NO_DELETE="N"
+		   NO_INSERT="N"
+		   NO_INTER_DELETE="N"
+		   NO_UPDATE="N"
+		   OBJECT_LANGUAGE_LOCKED="ENU"
+		   OBJECT_LOCKED="Y"
+		   OBJECT_LOCKED_DATE="10/21/2020 19:22:23"
+		   PARENT_BUSINESS_COMPONENT="WP Project"
+		   SOURCE_FIELD="Id"
+		   VISIBILITY_AUTO_ALL="N"
+		   OBJECT_LOCKED_BY_NAME="MALAKE957"
+		   UPDATED="10/22/2020 09:27:34"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/21/2020 19:21:45"
+		   CREATED_BY="MALAKE957">
+		</LINK>
+		<TABLE
+		   APPEND_DATA="N"
+		   FILE="N"
+		   INACTIVE="N"
+		   NAME="CX_PROJ_EMP"
+		   NODE_TYPE="ALL"
+		   PARTITION_INDICATOR="N"
+		   STATUS="Active"
+		   TYPE="Data (Intersection)"
+		   USER_NAME="CX_PROJ_EMP"
+		   VOLATILE="N"
+		   UPDATED="10/21/2020 18:51:20"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/21/2020 18:50:35"
+		   CREATED_BY="MALAKE957">
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="0"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="CONFLICT_ID"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_KEY_SEQUENCE="3"
+			   USER_NAME="Conflict Id"
+			   UPDATED="10/21/2020 18:50:35"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:35"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="%NOW%"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="CREATED"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="U"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="7"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Created"
+			   UPDATED="10/21/2020 18:50:35"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:35"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="%EMP%"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="CREATED_BY"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Created By"
+			   FOREIGN_KEY_TABLE_NAME="6*S_USER"
+			   UPDATED="10/21/2020 18:50:35"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:35"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="DB_LAST_UPD"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="U"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="7"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="DB Last Updated"
+			   UPDATED="10/21/2020 18:50:35"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:35"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="DB_LAST_UPD_SRC"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="50"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="DB Last Updated By"
+			   UPDATED="10/21/2020 18:50:35"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:35"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="%NOW%"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="LAST_UPD"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="U"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="7"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Last Updated"
+			   UPDATED="10/21/2020 18:50:35"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:35"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="%EMP%"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="LAST_UPD_BY"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Last Updated By"
+			   FOREIGN_KEY_TABLE_NAME="6*S_USER"
+			   UPDATED="10/21/2020 18:50:35"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:35"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="0"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="MODIFICATION_NUM"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="N"
+			   PRECISION="10"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   SCALE="0"
+			   STATUS="Active"
+			   TEXT_LENGTH="22"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Modification Number"
+			   UPDATED="10/21/2020 18:50:35"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:35"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="PROJECT_ID"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_KEY_SEQUENCE="1"
+			   USER_NAME="PROJECT_ID"
+			   FOREIGN_KEY_TABLE_NAME="13*CX_WP_PROJECT"
+			   UPDATED="10/21/2020 18:50:36"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:36"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="ROW_ID"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="Y"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Row Id"
+			   UPDATED="10/21/2020 18:50:36"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:36"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="STATUS"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="30"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="Status"
+			   UPDATED="10/21/2020 18:50:47"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:47"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="TYPE"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="30"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="Type"
+			   UPDATED="10/21/2020 18:50:36"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:36"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="USER_ID"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_KEY_SEQUENCE="2"
+			   USER_NAME="USER_ID"
+			   FOREIGN_KEY_TABLE_NAME="6*S_USER"
+			   UPDATED="10/21/2020 18:50:36"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:36"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<INDEX
+			   ALLOW_REVERSE_SCAN="N"
+			   CLUSTER="N"
+			   CLUSTER_2="N"
+			   INACTIVE="N"
+			   NAME="CX_PROJ_EMP_F1"
+			   NODE_TYPE="ALL"
+			   PARTITION_INDICATOR="N"
+			   TARGET_PLATFORM="ALL"
+			   TYPE="System"
+			   UNIQUE="N"
+			   USER_PRIMARY_KEY="N"
+			   UPDATED="10/21/2020 18:50:36"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:36"
+			   CREATED_BY="MALAKE957">
+				<INDEX_COLUMN
+				   INACTIVE="N"
+				   NAME="USER_ID"
+				   SEQUENCE="1"
+				   SORT_ORDER="Asc"
+				   COLUMN_NAME="7*USER_ID11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:36"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:36"
+				   CREATED_BY="MALAKE957">
+				</INDEX_COLUMN>
+			</INDEX>
+			<INDEX
+			   ALLOW_REVERSE_SCAN="N"
+			   CLUSTER="N"
+			   CLUSTER_2="N"
+			   INACTIVE="N"
+			   NAME="CX_PROJ_EMP_P1"
+			   NODE_TYPE="ALL"
+			   PARTITION_INDICATOR="N"
+			   TARGET_PLATFORM="ALL"
+			   TYPE="Primary Key"
+			   UNIQUE="Y"
+			   USER_PRIMARY_KEY="N"
+			   UPDATED="10/21/2020 18:50:36"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:36"
+			   CREATED_BY="MALAKE957">
+				<INDEX_COLUMN
+				   INACTIVE="N"
+				   NAME="ROW_ID"
+				   SEQUENCE="1"
+				   SORT_ORDER="Asc"
+				   COLUMN_NAME="6*ROW_ID11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:36"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:36"
+				   CREATED_BY="MALAKE957">
+				</INDEX_COLUMN>
+			</INDEX>
+			<INDEX
+			   ALLOW_REVERSE_SCAN="N"
+			   CLUSTER="Y"
+			   CLUSTER_2="N"
+			   INACTIVE="N"
+			   NAME="CX_PROJ_EMP_U1"
+			   NODE_TYPE="ALL"
+			   PARTITION_INDICATOR="N"
+			   TARGET_PLATFORM="ALL"
+			   TYPE="User Key"
+			   UNIQUE="Y"
+			   USER_PRIMARY_KEY="Y"
+			   UPDATED="10/21/2020 18:50:36"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:36"
+			   CREATED_BY="MALAKE957">
+				<INDEX_COLUMN
+				   INACTIVE="N"
+				   NAME="CONFLICT_ID"
+				   SEQUENCE="4"
+				   SORT_ORDER="Asc"
+				   COLUMN_NAME="11*CONFLICT_ID11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:36"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:36"
+				   CREATED_BY="MALAKE957">
+				</INDEX_COLUMN>
+				<INDEX_COLUMN
+				   INACTIVE="N"
+				   NAME="PROJECT_ID"
+				   SEQUENCE="1"
+				   SORT_ORDER="Asc"
+				   COLUMN_NAME="10*PROJECT_ID11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:36"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:36"
+				   CREATED_BY="MALAKE957">
+				</INDEX_COLUMN>
+				<INDEX_COLUMN
+				   INACTIVE="N"
+				   NAME="TYPE"
+				   SEQUENCE="3"
+				   SORT_ORDER="Asc"
+				   COLUMN_NAME="4*TYPE11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:36"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:36"
+				   CREATED_BY="MALAKE957">
+				</INDEX_COLUMN>
+				<INDEX_COLUMN
+				   INACTIVE="N"
+				   NAME="USER_ID"
+				   SEQUENCE="2"
+				   SORT_ORDER="Asc"
+				   COLUMN_NAME="7*USER_ID11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:36"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:36"
+				   CREATED_BY="MALAKE957">
+				</INDEX_COLUMN>
+			</INDEX>
+			<USER_KEY
+			   COMMENTS="User Primary Key Index"
+			   INACCESSIBLE="N"
+			   INACTIVE="N"
+			   NAME="CX_PROJ_EMP_U1"
+			   USER_KEY_TYPE="Traditional U1 Index"
+			   INDEX_NAME="14*CX_PROJ_EMP_U111*CX_PROJ_EMP"
+			   UPDATED="10/21/2020 18:50:37"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 18:50:37"
+			   CREATED_BY="MALAKE957">
+				<USER_KEY_COLUMN
+				   COLUMN_SEQUENCE="0"
+				   INACTIVE="N"
+				   NAME="PROJECT_ID"
+				   COLUMN_NAME="10*PROJECT_ID11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:37"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:37"
+				   CREATED_BY="MALAKE957">
+				</USER_KEY_COLUMN>
+				<USER_KEY_COLUMN
+				   COLUMN_SEQUENCE="0"
+				   INACTIVE="N"
+				   NAME="TYPE"
+				   COLUMN_NAME="4*TYPE11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:37"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:37"
+				   CREATED_BY="MALAKE957">
+				</USER_KEY_COLUMN>
+				<USER_KEY_COLUMN
+				   COLUMN_SEQUENCE="0"
+				   INACTIVE="N"
+				   NAME="USER_ID"
+				   COLUMN_NAME="7*USER_ID11*CX_PROJ_EMP"
+				   UPDATED="10/21/2020 18:50:37"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 18:50:37"
+				   CREATED_BY="MALAKE957">
+				</USER_KEY_COLUMN>
+			</USER_KEY>
+		</TABLE>
+		<TABLE
+		   APPEND_DATA="N"
+		   FILE="N"
+		   INACTIVE="N"
+		   NAME="CX_WP_PROJECT"
+		   NODE_TYPE="ALL"
+		   PARTITION_INDICATOR="N"
+		   STATUS="Active"
+		   TYPE="Data (Public)"
+		   USER_NAME="CX_WP_PROJECT"
+		   VOLATILE="N"
+		   UPDATED="10/21/2020 17:54:22"
+		   UPDATED_BY="MALAKE957"
+		   CREATED="10/21/2020 17:31:06"
+		   CREATED_BY="MALAKE957">
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="CLIENT_ID"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="50"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="Client Id"
+			   UPDATED="10/21/2020 17:35:47"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:35:47"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="0"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="CONFLICT_ID"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_KEY_SEQUENCE="1"
+			   USER_NAME="Conflict Id"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="%NOW%"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="CREATED"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="U"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="7"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Created"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="%EMP%"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="CREATED_BY"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Created By"
+			   FOREIGN_KEY_TABLE_NAME="6*S_USER"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="DB_LAST_UPD"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="U"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="7"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="DB Last Updated"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="DB_LAST_UPD_SRC"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="50"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="DB Last Updated By"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="END_DT"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="S"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="4000"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="End Date"
+			   UPDATED="10/21/2020 17:35:12"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:35:12"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="%NOW%"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="LAST_UPD"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="U"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="7"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Last Updated"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="%EMP%"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="LAST_UPD_BY"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Last Updated By"
+			   FOREIGN_KEY_TABLE_NAME="6*S_USER"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT="0"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="MODIFICATION_NUM"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="N"
+			   PRECISION="10"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="Y"
+			   SCALE="0"
+			   STATUS="Active"
+			   TEXT_LENGTH="22"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Modification Number"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="NAME"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="100"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="Name"
+			   UPDATED="10/21/2020 17:35:12"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:17"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="PROJ_MGR_ID"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="Project Manager Id"
+			   UPDATED="10/21/2020 17:48:30"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:48:30"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="REFERENCE"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="100"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="Reference"
+			   UPDATED="10/21/2020 17:37:10"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:37:10"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="ROW_ID"
+			   NULLABLE="N"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="Y"
+			   REQUIRED="Y"
+			   STATUS="Active"
+			   TEXT_LENGTH="15"
+			   TXN_LOG_CODE="Y"
+			   TYPE="System"
+			   USE_FKEY="N"
+			   USER_NAME="Row Id"
+			   UPDATED="10/21/2020 17:31:07"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="START_DT"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="S"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="4000"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="Start Date"
+			   UPDATED="10/21/2020 17:34:54"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:33:56"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<COLUMN
+			   ASCII_ONLY="N"
+			   CASCADE_CLEAR="N"
+			   DEFAULT_INSENSITIVITY="None"
+			   EIM_PROCESSING_COLUMN_FLAG="N"
+			   INACTIVE="N"
+			   LOV_BOUNDED="N"
+			   NAME="STATUS"
+			   NULLABLE="Y"
+			   PHYSICAL_TYPE="V"
+			   PRIMARY_CHILD_COL="N"
+			   PRIMARY_KEY="N"
+			   REQUIRED="N"
+			   STATUS="Active"
+			   TEXT_LENGTH="30"
+			   TXN_LOG_CODE="Y"
+			   TYPE="Data (Public)"
+			   USE_FKEY="N"
+			   USER_NAME="Status"
+			   UPDATED="10/21/2020 17:36:26"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:36:26"
+			   CREATED_BY="MALAKE957">
+			</COLUMN>
+			<INDEX
+			   ALLOW_REVERSE_SCAN="N"
+			   CLUSTER="N"
+			   CLUSTER_2="N"
+			   INACTIVE="N"
+			   NAME="CX_WP_PROJECT_P1"
+			   NODE_TYPE="ALL"
+			   PARTITION_INDICATOR="N"
+			   TARGET_PLATFORM="ALL"
+			   TYPE="Primary Key"
+			   UNIQUE="Y"
+			   USER_PRIMARY_KEY="N"
+			   UPDATED="10/21/2020 17:31:08"
+			   UPDATED_BY="MALAKE957"
+			   CREATED="10/21/2020 17:31:07"
+			   CREATED_BY="MALAKE957">
+				<INDEX_COLUMN
+				   INACTIVE="N"
+				   NAME="ROW_ID"
+				   SEQUENCE="1"
+				   SORT_ORDER="Asc"
+				   COLUMN_NAME="6*ROW_ID13*CX_WP_PROJECT"
+				   UPDATED="10/21/2020 17:31:08"
+				   UPDATED_BY="MALAKE957"
+				   CREATED="10/21/2020 17:31:08"
+				   CREATED_BY="MALAKE957">
+				</INDEX_COLUMN>
+			</INDEX>
+		</TABLE>
+	</PROJECT>
+</REPOSITORY>
+
+
+
